@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  gap: 10px;
+  span {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.35s;
+  }
+}
+
+.statusDone {
+  color: gray;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.todoBtn {
+  color: rgb(87, 47, 139);
+  font-size: 1.3rem;
+  &:hover {
+    font-size: 1.5rem;
+  }
+}
+
+.doneBtn {
+  color: rgb(61, 133, 143);
+  font-size: 1.3rem;
+  &:hover {
+    font-size: 1.5rem;
+  }
+}
+
+.deleteBtn {
+  font-size: 1.5rem;
+  color: rgb(36, 11, 65);
+  &:hover {
+    font-size: 1.7rem;
+  }
+}
